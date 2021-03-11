@@ -5,6 +5,7 @@ const globalParam = {
 
 
 function createAlgorithmInterfaceBtn(algorithmId, buttonText){
+
     let controlAlgorithmButtons = document.createElement("div");
     let wrapperGetAlgorithmButton = document.createElement("div");
     let wrapperDeleteAlgorithmButton = document.createElement("div");
