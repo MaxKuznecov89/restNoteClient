@@ -137,12 +137,17 @@ function handlerBtnSaveAlgorithm(){
                 showMessage();
 
             });
-
+            let p_message_of_empty_algorithms = document.querySelector(".p_message_of_empty_algorithms");
+            if(p_message_of_empty_algorithms){
+                p_message_of_empty_algorithms.classList.add("hidden");
+            }
             return;
         }
         handlerDataOfServer(res);
         renameAlgorithm(idAlgorithm);
         showMessage();
+
+
 
         return;
     }

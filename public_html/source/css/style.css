@@ -127,6 +127,7 @@ display: inline-block;
     padding: 20px;
     background: #2f3030;
 
+
 }
 .wrapper_create_algorithm_button{
     text-align: center;
@@ -134,6 +135,7 @@ display: inline-block;
 
 .wrapper_get_algorithm_button{
     margin-bottom: 5px;
+    overflow: auto;
 }
 .get_algorithm_button{
     width: 100%;
@@ -186,4 +188,13 @@ pre{
     font-family: 'Pilosopher';
     font-size: 20px;
     opacity: 0.9;
+}
+.p_message_of_empty_algorithms{
+    color: #dbdad9;
+    font-family: 'Exo2';
+}
+.wrapper_available_algorithms{
+    text-align: center;
+    flex-basis: 145px;
+    max-width: 145px;
 }
